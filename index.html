@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.10.2/underscore.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <title>Lesson 25 | JS Core</title>
+</head>
+
+<body>
+    <div id="underscorejs">
+        <div id="userinput">
+            <h2>Створити масив:</h2>
+            <div id="user">
+                <div id="input">
+                    <h3 id="error-text"></h3>
+                    <label for="numfrom">Від числа:</label>
+                    <input type="number" name="numfrom" id="numfrom" value="-50">
+                    <label for="numfor">До числа:</label>
+                    <input type="number" name="numfor" id="numfor" value="30">
+                    <label for="numinterval">Інтервал:</label>
+                    <input type="number" name="numinterval" id="numinterval" min=1 value="4">
+                    <input type="button" value="Згенерувати масив" id="btn">
+                </div>
+                <div id="btns">
+                    <input type="button" value="Перемішати масив і визначити індекс найментшого значення в масиві"
+                        id="btn2">
+                </div>
+            </div>
+        </div>
+        <div id="result">
+            <h3></h3>
+            <h3></h3>
+            <h3></h3>
+            <textarea name="" id="textarea" cols="75" rows="5" readonly></textarea>
+            <p></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
